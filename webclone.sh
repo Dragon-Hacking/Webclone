@@ -17,7 +17,7 @@ banner(){
 	printf "${v}"
 	figlet -t Clon3
 	sleep 1
-	printf "${n}Created by: ${c}F@br1x ${n}and ${c}JH1 ${d}"|pv -qL 12
+	printf "${n}Created by: ${c}F@br1x ${n}and ${c}JH1 \n"|pv -qL 12
 	printf "${n}Grupo de telegram\033[1;31m: \033[3;39mhttps://t.me/DarkJsociety"|pv -qL 12
 	sleep 1
 	echo ""
