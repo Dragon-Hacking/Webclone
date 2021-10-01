@@ -1,38 +1,38 @@
 Webclone
 
 Descarga sitios web con automatización de wget.
-Created by: F@br1x and 你好😜
+Created by: F@br1x and JH1
 
 Pasos de Instalación
 
 Actualizamos Repositorios:
 
-apt update && apt upgrade -y
+$ apt update && apt upgrade -y
 
 Instalamos los requisitos:
 
-apt install git wget pv -y
+$ apt install git wget pv -y
 
 Clonamos el repositorio:
 
 
-git clone https://github.com/Dragon-Hacking/Webclone
+$ git clone https://github.com/Dragon-Hacking/Webclone
 
 Entramos al directorio:
 
-cd Webclone
+$ cd Webclone
 
 Listamos:
 
-ls
+$ ls
 
 Damos permisos de ejecución:
 
-chmod +x webclone.sh
+$ chmod +x webclone.sh
 
 Ejecutamos el script
 
-./webclone.sh
+$ ./webclone.sh
 
 Modo de uso:
 
@@ -47,4 +47,4 @@ or
 Ejemplo: ./webclone.sh 'https://facebook.com'
 
 
-Created by: F@br1x and 你好😜
+Created by: F@br1x and JH1
